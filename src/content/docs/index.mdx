@@ -1,36 +1,30 @@
 ---
-title: Welcome to Starlight
+title: 晕晕的笔记
 description: Get started building your docs site with Starlight.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: 关于人工智能、数据分析、数字媒体及实用工具的应用笔记，分享个人项目经验和最佳实践
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: 笔记
+      link: /guides/welcome/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
-
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="人工智能" icon="pencil">
+		大模型怎么用？智能体是什么？提示词怎么写？
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="数据分析" icon="add-document">
+		从数据采集到分析到应用落地，需要经历什么？
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="数字媒体" icon="setting">
+		嘿嘿！喜欢数媒！🐱
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="实用工具" icon="open-book">
+		记录一些好用的工具吧
 	</Card>
 </CardGrid>
